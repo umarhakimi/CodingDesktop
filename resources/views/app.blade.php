@@ -13,7 +13,7 @@
 
         <!-- Styles -->
         <style>
-        .wrapper {
+        .wrapper{
             display: flex;
             height: 100%;
             width: 100%;
