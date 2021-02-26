@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import '../../sass/style.scss';
 import ReactDOM from 'react-dom';
 import {HashRouter as Router, Switch, Route, NavLink, Link} from 'react-router-dom';
 import reactPage from "./reactPage.js";
 import phpPage from "./phpPage.js";
 import laravelPage from "./laravelPage";
-import navPage from "./navPage";
+import NavPage from "./NavPage";
 import laravelHelp from "./laravelHelp";
 import laravelimg from "./images/laravel.png";
 import reactimg from "./images/react.png";
@@ -31,7 +32,7 @@ export default class App extends Component {
                     <Route path="/laravel" component={laravelPage} />
                     <Route path="/react" component={reactPage} />
                     <Route path="/php" component={phpPage} />
-                    <Route path="/navigation" component={navPage} />
+                    <Route path="/navigation" component={NavPage} />
                     <Route path="/laravelHelp" component={laravelHelp} />
                 </Switch>
                 </nav>

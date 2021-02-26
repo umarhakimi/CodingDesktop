@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import {HashRouter as Router, Switch, Route, NavLink, Link} from 'react-router-dom';
-import navPage from "./navPage";
+import NavPage from "./NavPage";
 
 export default class laravelHelp extends Component {
     render() {

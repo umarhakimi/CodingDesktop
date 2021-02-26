@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {HashRouter as Router, Switch, Route, NavLink, Link} from 'react-router-dom';
 import reactPage from "./reactPage";
 import laravelimg from "./images/laravel.png";
-export default class navPage extends Component {
+export default class NavPage extends Component {
     render() {
         return (
             <Router>
@@ -45,5 +45,5 @@ export default class navPage extends Component {
 }
 
 if (document.getElementById('root')) {
-    ReactDOM.render(<navPage />, document.getElementById('root'));
+    ReactDOM.render(<NavPage />, document.getElementById('root'));
 }

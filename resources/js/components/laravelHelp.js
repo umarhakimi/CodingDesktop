@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import ReactDOM from 'react-dom';
 import {HashRouter as Router, Switch, Route, NavLink, Link} from 'react-router-dom';
-
 import laravelimg from "./images/laravel.png";
+import SlideDrawer from "./SlideDrawer/SlideDrawer"
+import {Drawer } from 'rsuite';
+const laravelHelp =()=>{
+    const [drawer,setDrawer] = useState(false);
 
-const panel={
-    border:2,
-}
 
-export default class laravelHelp extends Component {
-    render() {
         return (
             <Router>
                 <div class="tab-pane fade show active">
@@ -34,21 +32,21 @@ export default class laravelHelp extends Component {
                                     <h1 class='header2'>All Questions</h1>
                                         <div class="questionContainer">
                                             <div class="panel ">
-                                                <Link to="" class="title" style={{ textDecoration: 'none' }}>MongoDB 3.2 to 3.6 Upgradation Performance/Slowness issue</Link>
-                                                    <p class="question">
-                                                    We have upgraded the MongoDB server from 3.2 to 3.6. The scenario is like previously we were having 3.4 setup installed on Server DB01 and the feature compatibility was 3.2 running. we have done ...
+                                                <Link onClick={()=>setDrawer(true)} class="title" style={{ textDecoration: 'none' }}>MongoDB 3.2 to 3.6 Upgradation Performance/Slowness issue</Link>
+                                                    <p class="question" >
+                                                    We have upgraded the MongoDB server from 3.2 to 3.6. The scenario is like previously we were having 3.4 setup installed on Server DB01 ...
                                                     </p>
                                             </div>
                                             <div class="panel">
                                                 <Link to=""class="title">Safely retrieving a value from a route</Link>
                                                     <p class="question">
-                                                    In my Angular application I have updated some URLs in my project from previously using query string elements like this: http://www.whatever.com/products?productName=TheMainProduct&id=234234 to a ...
+                                                    In my Angular application I have updated some URLs in my project from previously using query string elements like this: http://www.whatever.com/products?productName= ...
                                                     </p>
                                             </div>
                                             <div class="panel">
                                                 <Link to=""class="title">Convert python opencv and numpy solution to js code</Link>
                                                     <p class="question">
-                                                    I need a solution to detect t-shirt corners on an image. I found exactly what I want, but it is written in python, that I have never been dealing with. Also, honestly I am not good in opencv. But I ...
+                                                    I need a solution to detect t-shirt corners on an image. I found exactly what I want, but it is written in python, that I have never been dealing with. Also, honestly I am not...
                                                     </p>
                                             </div>
                                             <div class="panel">
@@ -108,8 +106,11 @@ export default class laravelHelp extends Component {
                                         </div>
 
                                 </div>
-                                <div class="col-6">
-                                            hello
+                                <div class="col-6 ">
+                                        <SlideDrawer >
+
+
+
                                 </div>
 
                             </div>
@@ -119,11 +120,11 @@ export default class laravelHelp extends Component {
                 </div>
 
 
-
             </Router>
         );
-    }
+
 }
+export default laravelHelp;
 
 if (document.getElementById('root')) {
     ReactDOM.render(<laravelHelp />, document.getElementById('root'));

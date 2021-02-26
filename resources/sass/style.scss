@@ -1,0 +1,178 @@
+.wrapper{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+
+
+}
+.nav {
+    width: 65px;
+    background-color: #202631;
+    height: 100%;
+    align-items: stretch;
+}
+
+.nav-link img{
+    width: 30px;
+    height: 30px;
+}
+
+.nav-link{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: 15%;
+}
+.nav-link:active{
+    color: white;
+}
+.wrapper.button{
+    color: blue;
+}
+.navbar{
+    border-right:solid 2px;
+    border-color:#878A8F;
+    background-color: #F7FAFF;
+    width: 150px;
+    height: 100%;
+    margin-left: -16px;
+
+}
+.nav-item{
+ margin-top: 10px;
+ color:grey;
+
+}
+
+.row.BoxHeader{
+    height: 150px;
+    border-bottom: solid 2px;
+    border-color: #878A8F;
+}
+.row.box-description{
+    width: 90%;
+
+}
+
+.col{
+    /* height: 143px;
+    border-bottom: solid 2px;
+    width: 500px; */
+}
+.pill .active{
+    background-color: white;
+}
+.col-2{
+
+
+}
+/* .container-img{
+    width: 50em;
+    border:solid 1px;
+} */
+.container-img img{
+    height: 105px;
+    width: 100px;
+    margin-left: 54px;
+    margin-right: 54px;
+}
+.para{
+
+    font-size: 60px;
+    border-radius: solid 2px;
+    margin-left: -120px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+.cont{
+
+}
+
+.wrapper2{
+    height: 84%;
+    width: 96%;
+
+}
+.header{
+    margin-top: 20px;
+    margin-left: 54px;
+    margin-right: 50%;
+}
+.header2{
+    margin-top: 20px;
+    margin-left: 54px;
+    font-size: 30px;
+}
+
+.panel{
+    border-top:1px solid;
+    border-color: #878A8F;
+    margin-left: 54px;
+    margin-right: 5%;
+}
+.scrollable{
+    overflow-y: scroll;
+}
+.title{
+
+    color:blue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.question{
+    margin-top: 7px;
+}
+
+.col-6.questionBox{
+    height: 100%;
+}
+.side-drawer{
+    background: white;
+    height: 100%;
+    transform: translateX( 110%);
+    transition: transform 0.3s ease-out;
+    overflow-y: scroll;
+}
+.side-drawer.open{
+    transform: translateX(0)
+}
+
+.answerbox{
+
+}
+.wrapper3{
+    height: 100%;
+    width: 100%;
+
+}
+.answerContainer{
+    height: 700px;
+}
+.codesnippet{
+    border-color: #878A8F;
+    margin-left: 54px;
+    margin-right: 5%;
+    max-height: 200px;
+    border-bottom:solid 1px;
+    overflow-y: scroll;
+}
+.answer{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 54px;
+    margin-right: 5%;
+    border-bottom: solid 1px;
+}
+.answer-title{
+    width: 100%;
+    margin-left:54px;
+    padding-bottom:20px;
+    padding-top:20px;
+    color:blue;
+}
+.close-answer{
+    border:2rem;
+    color:grey;
+}
