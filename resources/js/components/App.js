@@ -10,6 +10,8 @@ import laravelHelp from "./laravelHelp";
 import laravelimg from "./images/laravel.png";
 import reactimg from "./images/react.png";
 import phpimg from "./images/php.png";
+import Question from "./Question";
+import Answer from "./Answer";
 export default class App extends Component {
     render() {
         return (
@@ -33,7 +35,9 @@ export default class App extends Component {
                     <Route path="/react" component={reactPage} />
                     <Route path="/php" component={phpPage} />
                     <Route path="/navigation" component={NavPage} />
-                    <Route path="/laravelHelp" component={laravelHelp} />
+                    <Route path="/laravelHelp" component={Question} />
+                    <Route path="/answer" component={Answer} />
+
                 </Switch>
                 </nav>
 

@@ -6240,7 +6240,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".wrapper {\n  display: flex;\n  height: 100%;\n  width: 100%;\n  position: fixed;\n}\n\n.nav {\n  width: 65px;\n  background-color: #202631;\n  height: 100%;\n  align-items: stretch;\n}\n\n.nav-link img {\n  width: 30px;\n  height: 30px;\n}\n\n.nav-link {\n  display: flex;\n  width: 40px;\n  height: 40px;\n  margin: 15%;\n}\n\n.nav-link:active {\n  color: white;\n}\n\n.wrapper.button {\n  color: blue;\n}\n\n.navbar {\n  border-right: solid 2px;\n  border-color: #878A8F;\n  background-color: #F7FAFF;\n  width: 150px;\n  height: 100%;\n  margin-left: -16px;\n}\n\n.nav-item {\n  margin-top: 10px;\n  color: grey;\n}\n\n.row.BoxHeader {\n  height: 150px;\n  border-bottom: solid 2px;\n  border-color: #878A8F;\n}\n\n.row.box-description {\n  width: 90%;\n}\n\n.col {\n  /* height: 143px;\n  border-bottom: solid 2px;\n  width: 500px; */\n}\n\n.pill .active {\n  background-color: white;\n}\n\n/* .container-img{\n    width: 50em;\n    border:solid 1px;\n} */\n.container-img img {\n  height: 105px;\n  width: 100px;\n  margin-left: 54px;\n  margin-right: 54px;\n}\n\n.para {\n  font-size: 60px;\n  border-radius: solid 2px;\n  margin-left: -120px;\n  margin-bottom: 10px;\n  font-family: sans-serif;\n}\n\n.wrapper2 {\n  height: 84%;\n  width: 96%;\n}\n\n.header {\n  margin-top: 20px;\n  margin-left: 54px;\n  margin-right: 50%;\n}\n\n.header2 {\n  margin-top: 20px;\n  margin-left: 54px;\n  font-size: 30px;\n}\n\n.panel {\n  border-top: 1px solid;\n  border-color: #878A8F;\n  margin-left: 54px;\n  margin-right: 5%;\n}\n\n.scrollable {\n  overflow-y: scroll;\n}\n\n.title {\n  color: blue;\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.question {\n  margin-top: 7px;\n}\n\n.col-6.questionBox {\n  height: 100%;\n}\n\n.side-drawer {\n  background: white;\n  height: 100%;\n  transform: translateX(110%);\n  transition: transform 0.3s ease-out;\n  overflow-y: scroll;\n}\n\n.side-drawer.open {\n  transform: translateX(0);\n}\n\n.wrapper3 {\n  height: 100%;\n  width: 100%;\n}\n\n.answerContainer {\n  height: 700px;\n}\n\n.codesnippet {\n  border-color: #878A8F;\n  margin-left: 54px;\n  margin-right: 5%;\n  max-height: 200px;\n  border-bottom: solid 1px;\n  overflow-y: scroll;\n}\n\n.answer {\n  padding-top: 12px;\n  padding-bottom: 12px;\n  margin-left: 54px;\n  margin-right: 5%;\n  border-bottom: solid 1px;\n}\n\n.answer-title {\n  width: 100%;\n  margin-left: 54px;\n  padding-bottom: 20px;\n  padding-top: 20px;\n  color: blue;\n}\n\n.close-answer {\n  border: 2rem;\n  color: grey;\n}", ""]);
+exports.push([module.i, ".wrapper {\n  display: flex;\n  height: 100%;\n  width: 100%;\n  position: fixed;\n}\n\n.nav {\n  width: 65px;\n  background-color: #202631;\n  height: 100%;\n  align-items: stretch;\n}\n\n.nav-link img {\n  width: 30px;\n  height: 30px;\n}\n\n.nav-link {\n  display: flex;\n  width: 40px;\n  height: 40px;\n  margin: 15%;\n}\n\n.nav-link:active {\n  color: white;\n}\n\n.wrapper.button {\n  color: blue;\n}\n\n.navbar {\n  border-right: solid 2px;\n  border-color: #878A8F;\n  background-color: #F7FAFF;\n  width: 150px;\n  height: 100%;\n  margin-left: -16px;\n}\n\n.nav-item {\n  margin-top: 10px;\n  color: grey;\n}\n\n.row.BoxHeader {\n  height: 150px;\n  border-bottom: solid 2px;\n  border-color: #878A8F;\n}\n\n.row.box-description {\n  width: 90%;\n}\n\n.col {\n  /* height: 143px;\n  border-bottom: solid 2px;\n  width: 500px; */\n}\n\n.pill .active {\n  background-color: white;\n}\n\n/* .container-img{\n    width: 50em;\n    border:solid 1px;\n} */\n.container-img img {\n  height: 105px;\n  width: 100px;\n  margin-left: 54px;\n  margin-right: 54px;\n}\n\n.para {\n  font-size: 60px;\n  border-radius: solid 2px;\n  margin-left: -120px;\n  margin-bottom: 10px;\n  font-family: sans-serif;\n}\n\n.wrapper2 {\n  height: 84%;\n  width: 96%;\n}\n\n.header {\n  margin-top: 20px;\n  margin-left: 54px;\n  margin-right: 50%;\n}\n\n.header2 {\n  margin-top: 20px;\n  margin-left: 54px;\n  font-size: 30px;\n}\n\n.panel {\n  border-top: 1px solid;\n  border-color: #878A8F;\n  margin-left: 54px;\n  margin-right: 5%;\n}\n\n.scrollable {\n  overflow-y: scroll;\n}\n\n.title {\n  color: blue;\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.question {\n  margin-top: 7px;\n}\n\n.questionBox {\n  height: 100%;\n}\n\n.side-drawer {\n  background: white;\n  height: 100%;\n  transform: translateX(110%);\n  transition: transform 0.3s ease-out;\n  overflow-y: scroll;\n}\n\n.side-drawer.open {\n  transform: translateX(0);\n}\n\n.wrapper3 {\n  height: 100%;\n  width: 100%;\n}\n\n.answerContainer {\n  height: 700px;\n}\n\n.codesnippet {\n  border-color: #878A8F;\n  margin-left: 54px;\n  margin-right: 5%;\n  max-height: 200px;\n  border-bottom: solid 1px;\n  overflow-y: scroll;\n}\n\n.answer {\n  padding-top: 12px;\n  padding-bottom: 12px;\n  margin-left: 54px;\n  margin-right: 5%;\n  border-bottom: solid 1px;\n}\n\n.answer-title {\n  width: 100%;\n  margin-left: 54px;\n  padding-bottom: 20px;\n  padding-top: 20px;\n  color: blue;\n}\n\n.close-answer {\n  border: 2rem;\n  color: grey;\n}", ""]);
 
 // exports
 
@@ -70316,7 +70316,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
  */
 
 
-__webpack_require__(/*! ./components/App */ "./resources/js/components/App.js");
+__webpack_require__(/*! ./components/App */ "./resources/js/components/App.js"); // require('./components/Question');
 
 /***/ }),
 
@@ -70378,6 +70378,46 @@ if (token) {
 
 /***/ }),
 
+/***/ "./resources/js/components/Answer.js":
+/*!*******************************************!*\
+  !*** ./resources/js/components/Answer.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../sass/style.scss */ "./resources/sass/style.scss");
+/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_style_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _images_laravel_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/laravel.png */ "./resources/js/components/images/laravel.png");
+/* harmony import */ var _images_laravel_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_images_laravel_png__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+
+
+var Answer = function Answer(props) {
+  // const question={props.location.test};
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "hello");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Answer);
+
+if (document.getElementById('root')) {
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Answer, null), document.getElementById('root'));
+}
+
+/***/ }),
+
 /***/ "./resources/js/components/App.js":
 /*!****************************************!*\
   !*** ./resources/js/components/App.js ***!
@@ -70406,6 +70446,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_react_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_images_react_png__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var _images_php_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./images/php.png */ "./resources/js/components/images/php.png");
 /* harmony import */ var _images_php_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_images_php_png__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _Question__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Question */ "./resources/js/components/Question.js");
+/* harmony import */ var _Answer__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Answer */ "./resources/js/components/Answer.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -70427,6 +70469,8 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
 
 
 
@@ -70493,7 +70537,10 @@ var App = /*#__PURE__*/function (_Component) {
         component: _NavPage__WEBPACK_IMPORTED_MODULE_7__["default"]
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
         path: "/laravelHelp",
-        component: _laravelHelp__WEBPACK_IMPORTED_MODULE_8__["default"]
+        component: _Question__WEBPACK_IMPORTED_MODULE_12__["default"]
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
+        path: "/answer",
+        component: _Answer__WEBPACK_IMPORTED_MODULE_13__["default"]
       })))));
     }
   }]);
@@ -70616,6 +70663,205 @@ if (document.getElementById('root')) {
 
 /***/ }),
 
+/***/ "./resources/js/components/Question.js":
+/*!*********************************************!*\
+  !*** ./resources/js/components/Question.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Question; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../sass/style.scss */ "./resources/sass/style.scss");
+/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_style_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _images_laravel_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/laravel.png */ "./resources/js/components/images/laravel.png");
+/* harmony import */ var _images_laravel_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_images_laravel_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_reactPage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/reactPage */ "./resources/js/components/reactPage.js");
+/* harmony import */ var _Answer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Answer */ "./resources/js/components/Answer.js");
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+
+
+
+
+
+
+var Question = /*#__PURE__*/function (_Component) {
+  _inherits(Question, _Component);
+
+  var _super = _createSuper(Question);
+
+  function Question() {
+    var _this;
+
+    _classCallCheck(this, Question);
+
+    _this = _super.call(this);
+    _this.state = {
+      questions: []
+    };
+    return _this;
+  }
+
+  _createClass(Question, [{
+    key: "componentWillMount",
+    value: function componentWillMount() {
+      var _this2 = this;
+
+      axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('/api/question').then(function (response) {
+        _this2.setState({
+          questions: response.data
+        });
+      })["catch"](function (errors) {
+        console.log(errors);
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["HashRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "tab-pane fade show active"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "wrapper justify-content-center"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+        "class": "col-1 navbar flex-column justify-content-center align-items-center"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+        to: "/navigation",
+        "class": "nav-item justify-content-center"
+      }, "Get Started"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        "class": "nav-item justify-content-center"
+      }, "Help"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+        to: "https://laravel.com/docs/8.x",
+        "class": "nav-item justify-content-center"
+      }, "Documentation")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "col-2 cont flex-fill"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "row BoxHeader flex-fill align-items-center"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "container-img col-2 "
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: _images_laravel_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+        alt: "laravel",
+        "class": ""
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": " col-1 "
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        "class": "para"
+      }, "Laravel"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "wrapper2 row"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "questionBox scrollable"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        "class": "header2"
+      }, "All Questions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "questionContainer"
+      }, this.state.questions.map(function (question) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          "class": "panel"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+          to: {
+            pathname: "/answer",
+            test: {
+              id: 'hello this is test'
+            }
+          },
+          "class": "title"
+        }, question.title, "/", question.id), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+          "class": "question"
+        }, question.content));
+      }))))))))
+      /* <Router>
+      <div className="container">
+          {this.state.questions.map(question =>
+          <div class="panel">
+          <Link to="" class="title">{question.title}</Link>
+          <p class="question">{question.content}</p>
+      </div>)}
+      </div>
+      </Router> */
+      ;
+    }
+  }]);
+
+  return Question;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+
+
+if (document.getElementById('root')) {
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Question, null), document.getElementById('root'));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/SlideDrawer/SlideDrawer.js":
+/*!************************************************************!*\
+  !*** ./resources/js/components/SlideDrawer/SlideDrawer.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var SlideDrawer = function SlideDrawer() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: drawerClasses
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    "class": "col-6 answer-title"
+  }, "MongoDB 3.2 to 3.6 Upgradation Performance/Slowness issue"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "answerContainer "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: function onClick() {
+      return setToggle(!toggle);
+    }
+  }, "close"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "answer"
+  }, "We have upgraded the MongoDB server from 3.2 to 3.6. The scenario is like previously we were having 3.4 setup installed on Server DB01 and the feature compatibility was 3.2 running. we have done upgradation to our DB01 server of 800 GB data set to 3.2  3.4  3.6 in one the Go. after doing this Upgradation we faced Performance issues of performance on PROD App. but same Application is running on 3.6 properly on as UAT other PROD servers smoothly on DB04. Now we have to the Downgrade of the server to back on 3.2 version. and monitoring continually."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "answer"
+  }, "lorem ipsum"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "answer"
+  }, "lorem ipsum"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SlideDrawer);
+
+/***/ }),
+
 /***/ "./resources/js/components/images/laravel.png":
 /*!****************************************************!*\
   !*** ./resources/js/components/images/laravel.png ***!
@@ -70654,9 +70900,175 @@ module.exports = "/images/react.png?102516da43e34429e9c51abb0f6df0e4";
   !*** ./resources/js/components/laravelHelp.js ***!
   \************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\laragon\\www\\FrameworkSupport\\resources\\js\\components\\laravelHelp.js: Expected corresponding JSX closing tag for <SlideDrawer> (114:32)\n\n\u001b[0m \u001b[90m 112 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 113 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 114 |\u001b[39m                                 \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 115 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 116 |\u001b[39m                             \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 117 |\u001b[39m                             {\u001b[90m/* wrapper */\u001b[39m}\u001b[0m\n    at Object._raise (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:776:17)\n    at Object.raiseWithData (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:769:17)\n    at Object.raise (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:737:17)\n    at Object.jsxParseElementAt (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:4958:16)\n    at Object.jsxParseElementAt (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:4926:32)\n    at Object.jsxParseElementAt (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:4926:32)\n    at Object.jsxParseElementAt (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:4926:32)\n    at Object.jsxParseElementAt (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:4926:32)\n    at Object.jsxParseElementAt (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:4926:32)\n    at Object.jsxParseElementAt (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:4926:32)\n    at Object.jsxParseElement (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:4984:17)\n    at Object.parseExprAtom (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:4991:19)\n    at Object.parseExprSubscripts (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10329:23)\n    at Object.parseUpdate (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10309:21)\n    at Object.parseMaybeUnary (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10287:23)\n    at Object.parseExprOps (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10152:23)\n    at Object.parseMaybeConditional (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10126:23)\n    at Object.parseMaybeAssign (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10089:21)\n    at C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10056:39\n    at Object.allowInAnd (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:11728:12)\n    at Object.parseMaybeAssignAllowIn (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10056:17)\n    at Object.parseParenAndDistinguishExpression (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10931:28)\n    at Object.parseExprAtom (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10649:21)\n    at Object.parseExprAtom (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:4996:20)\n    at Object.parseExprSubscripts (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10329:23)\n    at Object.parseUpdate (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10309:21)\n    at Object.parseMaybeUnary (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10287:23)\n    at Object.parseExprOps (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10152:23)\n    at Object.parseMaybeConditional (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10126:23)\n    at Object.parseMaybeAssign (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10089:21)\n    at Object.parseExpressionBase (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10034:23)\n    at C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10028:39\n    at Object.allowInAnd (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:11728:12)\n    at Object.parseExpression (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:10028:17)\n    at Object.parseReturnStatement (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:12226:28)\n    at Object.parseStatementContent (C:\\laragon\\www\\FrameworkSupport\\node_modules\\@babel\\parser\\lib\\index.js:11905:21)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _images_laravel_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/laravel.png */ "./resources/js/components/images/laravel.png");
+/* harmony import */ var _images_laravel_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_laravel_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _SlideDrawer_SlideDrawer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SlideDrawer/SlideDrawer */ "./resources/js/components/SlideDrawer/SlideDrawer.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+
+var laravelHelp = function laravelHelp() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      drawer = _useState2[0],
+      setDrawer = _useState2[1];
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["HashRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "tab-pane fade show active"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "wrapper justify-content-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+    "class": "col-1 navbar flex-column justify-content-center align-items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "/navigation",
+    "class": "nav-item justify-content-center"
+  }, "Get Started"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    "class": "nav-item justify-content-center"
+  }, "Help"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://laravel.com/docs/8.x",
+    "class": "nav-item justify-content-center"
+  }, "Documentation")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "col-2 cont flex-fill"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "row BoxHeader flex-fill align-items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "container-img col-2 "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_laravel_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+    alt: "laravel",
+    "class": ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": " col-1 "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "para"
+  }, "Laravel"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "wrapper2 row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "questionBox scrollable"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    "class": "header2"
+  }, "All Questions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "questionContainer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "panel "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    onClick: function onClick() {
+      return setDrawer(true);
+    },
+    "class": "title",
+    style: {
+      textDecoration: 'none'
+    }
+  }, "MongoDB 3.2 to 3.6 Upgradation Performance/Slowness issue"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "question"
+  }, "We have upgraded the MongoDB server from 3.2 to 3.6. The scenario is like previously we were having 3.4 setup installed on Server DB01 ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "panel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "",
+    "class": "title"
+  }, "Safely retrieving a value from a route"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "question"
+  }, "In my Angular application I have updated some URLs in my project from previously using query string elements like this: http://www.whatever.com/products?productName= ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "panel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "",
+    "class": "title"
+  }, "Convert python opencv and numpy solution to js code"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "question"
+  }, "I need a solution to detect t-shirt corners on an image. I found exactly what I want, but it is written in python, that I have never been dealing with. Also, honestly I am not...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "panel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "",
+    "class": "title"
+  }, "Pattern to replace elements on each hover with css"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "question"
+  }, "I want when hovering over an element, it will be replaced with a new element value, as in the video below. demo video I now try like this, but it's still difficult to change elements when hovering on ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "panel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "",
+    "class": "title"
+  }, "Pattern to replace elements on each hover with css"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "question"
+  }, "I want when hovering over an element, it will be replaced with a new element value, as in the video below. demo video I now try like this, but it's still difficult to change elements when hovering on ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "panel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "",
+    "class": "title"
+  }, "Pattern to replace elements on each hover with css"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "question"
+  }, "I want when hovering over an element, it will be replaced with a new element value, as in the video below. demo video I now try like this, but it's still difficult to change elements when hovering on ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "panel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "",
+    "class": "title"
+  }, "Pattern to replace elements on each hover with jss"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "question"
+  }, "I want when hovering over an element, it will be replaced with a new element value, as in the video below. demo video I now try like this, but it's still difficult to change elements when hovering on ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "panel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "",
+    "class": "title"
+  }, "Pattern to replace elements on each hover with css"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "question"
+  }, "I want when hovering over an element, it will be replaced with a new element value, as in the video below. demo video I now try like this, but it's still difficult to change elements when hovering on ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "panel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "",
+    "class": "title"
+  }, "Pattern to replace elements on each hover with css"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "question"
+  }, "I want when hovering over an element, it will be replaced with a new element value, as in the video below. demo video I now try like this, but it's still difficult to change elements when hovering on ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "panel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "",
+    "class": "title"
+  }, "Pattern to replace elements on each hover with css"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "question"
+  }, "I want when hovering over an element, it will be replaced with a new element value, as in the video below. demo video I now try like this, but it's still difficult to change elements when hovering on ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "panel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "",
+    "class": "title"
+  }, "Pattern to replace elements on each hover with css"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "question"
+  }, "I want when hovering over an element, it will be replaced with a new element value, as in the video below. demo video I now try like this, but it's still difficult to change elements when hovering on ...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "panel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "",
+    "class": "title "
+  }, "Pattern to replace elements on each hover with jss"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "question"
+  }, "I want when hovering over an element, it will be replaced with a new element value, as in the video below. demo video I now try like this, but it's still difficult to change elements when hovering on ...")))))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (laravelHelp);
+
+if (document.getElementById('root')) {
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("laravelHelp", null), document.getElementById('root'));
+}
 
 /***/ }),
 

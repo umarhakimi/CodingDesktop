@@ -2,11 +2,9 @@ import React, { Component, useState } from 'react';
 import ReactDOM from 'react-dom';
 import {HashRouter as Router, Switch, Route, NavLink, Link} from 'react-router-dom';
 import laravelimg from "./images/laravel.png";
-import SlideDrawer from "./SlideDrawer/SlideDrawer"
-import {Drawer } from 'rsuite';
+import SlideDrawer from "./SlideDrawer/SlideDrawer";
 const laravelHelp =()=>{
     const [drawer,setDrawer] = useState(false);
-
 
         return (
             <Router>
@@ -28,7 +26,7 @@ const laravelHelp =()=>{
                             </div>
                             <div class="wrapper2 row">
 
-                                <div class="col-6 questionBox scrollable">
+                                <div class="questionBox scrollable">
                                     <h1 class='header2'>All Questions</h1>
                                         <div class="questionContainer">
                                             <div class="panel ">
@@ -106,18 +104,14 @@ const laravelHelp =()=>{
                                         </div>
 
                                 </div>
-                                <div class="col-6 ">
-                                        <SlideDrawer >
 
-
-
-                                </div>
 
                             </div>
                             {/* wrapper */}
                         </div>
                     </div>
                 </div>
+
 
 
             </Router>
