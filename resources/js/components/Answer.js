@@ -17,6 +17,7 @@ const Answer =(props)=>{
 
 
          <div >
+             {test}
 
              hello
 

@@ -70407,7 +70407,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var Answer = function Answer(props) {
   // const question={props.location.test};
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "hello");
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, test, "hello");
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Answer);
