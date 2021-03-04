@@ -2,16 +2,14 @@ import React, { Component } from 'react';
 import '../../sass/style.scss';
 import ReactDOM from 'react-dom';
 import {HashRouter as Router, Switch, Route, NavLink, Link} from 'react-router-dom';
-import reactPage from "./reactPage.js";
+import ReactPage from "./reactPage.js";
 import phpPage from "./phpPage.js";
-import laravelPage from "./laravelPage";
 import NavPage from "./NavPage";
-import laravelHelp from "./laravelHelp";
 import laravelimg from "./images/laravel.png";
 import reactimg from "./images/react.png";
 import phpimg from "./images/php.png";
 import Question from "./Question";
-import Answer from "./Answer";
+import Answer from "./Test";
 export default class App extends Component {
     render() {
         return (
@@ -27,18 +25,16 @@ export default class App extends Component {
                         <img className="nav-image" src={reactimg} />
                     </NavLink>
                     <NavLink to="/php" className="nav-link justify-content-center">
-                        <img class="nav-image" src={phpimg} />
+                        <img className="nav-image" src={phpimg} />
                     </NavLink>
                 </div>
-                <Switch>
-                    <Route path="/laravel" component={laravelPage} />
-                    <Route path="/react" component={reactPage} />
+                    <Route path="/react" component={ReactPage} />
                     <Route path="/php" component={phpPage} />
                     <Route path="/navigation" component={NavPage} />
                     <Route path="/laravelHelp" component={Question} />
-                    <Route path="/answer" component={Answer} />
+                    {/* <Route path="/question/:id" exact render = {props => <Answer{...props}/> }/> */}
+                   <Route path="/question/:id" component={Answer} exact />
 
-                </Switch>
                 </nav>
 
             </div>

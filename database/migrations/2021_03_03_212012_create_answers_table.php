@@ -13,7 +13,7 @@ class CreateAnswersTable extends Migration
      */
     public function up()
     {
-        Schema::create('answer', function (Blueprint $table) {
+        Schema::create('answers', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('questionID');
             $table->string('content');
@@ -28,6 +28,6 @@ class CreateAnswersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('answer');
+        Schema::dropIfExists('answers');
     }
 }

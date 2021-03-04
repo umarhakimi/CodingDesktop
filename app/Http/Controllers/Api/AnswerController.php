@@ -47,7 +47,8 @@ class AnswerController extends Controller
      */
     public function show($id)
     {
-        //
+        $id = Answer::id(1);
+        return response()->json($id);
     }
 
     /**

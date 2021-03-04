@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-export default class reactPage extends Component {
+export default class ReactPage extends Component {
     render() {
         return (
 
@@ -15,5 +15,5 @@ export default class reactPage extends Component {
 }
 
 if (document.getElementById('root')) {
-    ReactDOM.render(<reactPage />, document.getElementById('root'));
+    ReactDOM.render(<ReactPage />, document.getElementById('root'));
 }
