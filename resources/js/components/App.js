@@ -9,7 +9,8 @@ import laravelimg from "./images/laravel.png";
 import reactimg from "./images/react.png";
 import phpimg from "./images/php.png";
 import Question from "./Question";
-import Answer from "./Test";
+// import Answer from "./Test";
+import Answer from "./Answer";
 export default class App extends Component {
     render() {
         return (
@@ -32,9 +33,9 @@ export default class App extends Component {
                     <Route path="/php" component={phpPage} />
                     <Route path="/navigation" component={NavPage} />
                     <Route path="/laravelHelp" component={Question} />
-                    {/* <Route path="/question/:id" exact render = {props => <Answer{...props}/> }/> */}
-                   <Route path="/question/:id" component={Answer} exact />
-
+                    <Route path="/question/:question_id" exact render = {props => <Answer{...props}/> }/>
+                   {/* <Route path="/question/:id" component={Answer} exact /> */}
+                   {/* <Route path="/question/:question_id" component={Answer}  exact/> */}
                 </nav>
 
             </div>

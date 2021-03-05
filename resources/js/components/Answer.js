@@ -2,35 +2,41 @@ import React, { Component, useState } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 import '../../sass/style.scss';
-import {HashRouter as Router, Switch, Route, NavLink, Link} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route, NavLink, Link, withRouter} from 'react-router-dom';
 import laravelimg from "./images/laravel.png";
 
 
-export default class Answer extends Component{
+class Answer extends Component{
 
-    // const [question, setQuestion] = useState(props)
+
     // let question_id = this.props.match.params.id;
 
-    // constructor(props){
-    //     super(props);
-    //     this.state = {
-    //         post:{}
-    //     };
-    // }
-    // componentDidMount(){
-    //     axios.get("/api/question/" +this.props.match.params.id).then(response =>{
-    //         this.setState({post : response.data[0] });
-    //     }).catch(error => console.log(error));
-    // }
+
+    constructor(){
+        super();
+        this.state = {
+            answers:[]
+
+        }
+    }
+    componentDidMount(){
+        let question_id = this.props.match.params.question_id;
+        console.log(question_id)
+        axios.get('/api/answer/'+question_id).then(response =>{
+            this.setState({
+                answers: response.data
+            })
+        }).catch(errors =>{
+            console.log(errors);
+        })
+    }
     render(){
-        // console.log(this.props);
+        // let question_id = this.props.match.params.id;
     return(
 
 
-         <div >
 
-
-             <Router>
+        <Router>
                 <div className="tab-pane fade show active">
                     <div className="wrapper justify-content-center">
                         <nav className="col-1 navbar flex-column justify-content-center align-items-center" >
@@ -50,20 +56,14 @@ export default class Answer extends Component{
                             <div className="wrapper2 row">
 
                                 <div className="questionBox scrollable">
-                                    <h1 className='header2'>Answers</h1>
+                                    <h1 className='header2'>Answer</h1>
                                     <div className="questionContainer">
-                                        {/* {this.state.questions.map(question =>
+                                        {this.state.answers.map(answer =>
                                             <div  className="panel">
-                                                    <Link to={{
-                                                        pathname:"/answer/" +question.id,
-                                                        search: "?sort=name",
-                                                        hash: "#the-hash",
-                                                        // state:{
-                                                        //     questions:{questions}
-                                                        // }
-                                                    }} className="title">{question.title}/{question.id}</Link>
-                                                    <p className="question">{question.content}</p> */}
+                                                    <div className="title">Question '{answer.questionID}'</div>
+                                                    <div className="answer">{answer.content}</div>
 
+                                            </div>)}
 
                                     </div>
                                 </div>
@@ -74,15 +74,12 @@ export default class Answer extends Component{
 
 
             </Router>
-         </div>
+
+
 
  )
 
 }
 }
+export default withRouter(Answer);
 
-
-
-if (document.getElementById('root')) {
-    ReactDOM.render(<Answer />, document.getElementById('root'));
-}

@@ -19,3 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::resource('question', 'Api\QuestionController');
 Route::resource('answer', 'Api\AnswerController');
+

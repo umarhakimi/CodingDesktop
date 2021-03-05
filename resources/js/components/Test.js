@@ -8,20 +8,25 @@ import laravelimg from "./images/laravel.png";
 
 export default function Answer(props) {
     const [data, setData] = useState([]);
-    const [questionID,setId] = useState(1);
+    const [questionID] = useState(props);
+    const { match: { params } } = props;
+    // let question_id = props.match.params.question_id;
 
+    // let question_id = props.match.params.id;
     // useEffect(() =>{
     //     fetch(`/api/answer/${questionID}`)
     //     .then(response => response.json())
     //     .then((json) => setData(json));
     // },[])
     useEffect(() =>{
+        console.log(params)
         axios.get('/api/answer')
         .then(res => {
             setData(res.data)
         })
     },[])
 
+    // console.log(question_id);
 
     return(
 
@@ -50,7 +55,7 @@ export default function Answer(props) {
                             <div className="questionContainer">
                                 {data.map(answer =>
                                     <div  className="panel">
-                                            <div className="title">Question '{answer.questionID}'</div>
+                                            <div >Question '{answer.questionID}'</div>
                                             <div className="answer">{answer.content}</div>
 
                                     </div>)}
