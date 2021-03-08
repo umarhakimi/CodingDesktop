@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Http\Request;
+use Laravel\Passport\Bridge\AccessToken;
+use Laravel\Passport\Http\Controllers\PersonalAccessTokenController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,10 +14,15 @@ use Illuminate\Http\Request;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
+// Route::post(uri:'login',[AccessTokenController::class, 'issueToken'])
+//     ->middleware([api-login, 'throttle'])
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+//passport
+Route::post('/register', 'AuthAPIController@register');
+Route::post('/login', 'AuthAPIController@login');
 
 Route::resource('question', 'Api\QuestionController');
 Route::resource('answer', 'Api\AnswerController');

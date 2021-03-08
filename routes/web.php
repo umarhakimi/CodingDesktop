@@ -15,7 +15,4 @@ Route::get('/', function () {
     return view('App');
 });
 
-// Route::get('./react.js', function () {
-//     return view('react');
-// });
 

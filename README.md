@@ -14,4 +14,4 @@ a webpage that help new internee/staff to get familiar with all the framework th
 - axios
 - as of now
 - 
-
+- $ composer require laravel/passport:7.5.1

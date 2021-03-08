@@ -2,11 +2,11 @@ import React, { Component, useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 import '../../sass/style.scss';
-import {HashRouter as Router, Switch, Route, NavLink, Link} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route, NavLink, Link, withRouter} from 'react-router-dom';
 import laravelimg from "./images/laravel.png";
 
 
-export default function Answer(props) {
+function Answer(props) {
     const [data, setData] = useState([]);
     const [questionID] = useState(props);
     const { match: { params } } = props;
@@ -74,7 +74,7 @@ export default function Answer(props) {
 
 }
 
-
+export default withRouter(Answer);
 
 
 if (document.getElementById('root')) {
