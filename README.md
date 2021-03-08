@@ -15,3 +15,5 @@ a webpage that help new internee/staff to get familiar with all the framework th
 - as of now
 - 
 - $ composer require laravel/passport:7.5.1
+- $ composer require lcobucci/jwt=3.3.3
+
