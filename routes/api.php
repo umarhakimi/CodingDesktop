@@ -24,6 +24,11 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('/register', 'AuthAPIController@register');
 Route::post('/login', 'AuthAPIController@login');
 
+
+Route::group(['middleware' => 'auth:api'], function () {
+        Route::GET('/test', 'TestAPIController@index');
+    });
+
 Route::resource('question', 'Api\QuestionController');
 Route::resource('answer', 'Api\AnswerController');
 
