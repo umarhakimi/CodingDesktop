@@ -10,7 +10,7 @@ class AuthAPIController extends Controller
 {
     public function register(Request $request)
     {
-        // return('test');
+
         $validatedData = $request->validate([
             'name' => 'required|max:55',
             'email' => 'email|required|unique:users',
@@ -26,7 +26,6 @@ class AuthAPIController extends Controller
                 'message'=>'success register',
                 'user' => $user,
                 'access_token' => $accessToken]);
-        // return response([ 'user' => $user, 'access_token' => $accessToken]);
     }
 
     public function login(Request $request)
@@ -37,7 +36,9 @@ class AuthAPIController extends Controller
         ]);
 
         if (!Auth::attempt($loginData)) {
-            return response(['message' => 'Invalid Credentials']);
+            return response(['
+            message' => 'Invalid Credentials,
+            '])->setStatusCode(400);
         }
         /**@var User $user */
         $user = Auth::user($loginData);
@@ -47,8 +48,8 @@ class AuthAPIController extends Controller
             'user' => auth()->user(),
             'message' => 'success login',
             'access_token' => $accessToken,
+            'user' => $user,
         ])->withCookie($cookie);
-
     }
     public function logout()
     {

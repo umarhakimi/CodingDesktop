@@ -10,7 +10,6 @@ import reactimg from "./images/react.png";
 import phpimg from "./images/php.png";
 import lgtimg from "./images/logout.png";
 import Question from "./Question";
-// import Answer from "./Test";
 import Answer from "./Answer";
 import Login from './Login';
 import Register from './Register';
@@ -45,6 +44,7 @@ export default class App extends Component {
                     <Route path="/login" component={Login}/>
                     <Route path="/register" component={Register}/>
                     <Route path="/logout" component={Logout}/>
+                    {/* <Route component={NoMatch}/> */}
                 </nav>
 
             </div>

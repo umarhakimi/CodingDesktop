@@ -26,7 +26,6 @@ Route::post('/login', 'AuthAPIController@login');
 
 
 Route::group(['middleware' => 'auth:api'], function () {
-        Route::GET('/test', 'TestAPIController@index');
         Route::resource('question', 'Api\QuestionController');
         Route::POST('/logout', 'AuthAPIController@logout');
         Route::resource('answer', 'Api\AnswerController');

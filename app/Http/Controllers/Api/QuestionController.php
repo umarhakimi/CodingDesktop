@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api;
 use App\Question;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
+use Illuminate\Support\Facades\Auth;
 class QuestionController extends Controller
 {
     /**
@@ -16,6 +16,7 @@ class QuestionController extends Controller
     {
         $questions = Question::all();
         return response([
+            'user'=> Auth::user(),
             'message' => 'success',
             'questions' => $questions,
             ]);
@@ -26,10 +27,6 @@ class QuestionController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -39,7 +36,15 @@ class QuestionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $user=Auth::user();
+        $user->id ;
+        $question = new Question;
+        $question->content =$request->content;
+        $question->title =$request->title;
+        $question->save();
+        return response([
+            'message'=> 'success added'
+        ]);
     }
 
     /**

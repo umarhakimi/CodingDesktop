@@ -11,9 +11,7 @@ export default class Question extends Component {
         this.state = {
             questions:[],
             message:(''),
-            status : (false),
-
-
+            status : false,
         }
     }
     async componentDidMount(){
@@ -22,23 +20,28 @@ export default class Question extends Component {
             headers: {'Content-Type': 'application/json'},
             credentials: 'include',
                 }).then(response =>{
+                    console.log(response)
                     this.setState({
                         questions: response.data.questions,
                         message: response.data.message,
                     })
+                    if (response.data.message !== 'success login'){
+                        this.setState({
+                            status:true,
+                        })
+                        console.log(response.data.message)
+                    }
+                    if (this.state.status){
+
+                    }
                 }).catch(errors =>{
                     console.log(errors);
                 })
-                if (message == 'success login'){
-                    this.setState.status(true)
-                    console.log(this.state.message)
-                }
-
             }
 
-    if (status){
-        return <Redirect to='/login'/>
-    }
+    // if (this.state.status){
+    //     return <Redirect to='/login'/>
+    // }
 
 
     render() {

@@ -1,17 +1,12 @@
 import React, { Component,useState,useRef, useEffect } from 'react';
 import {useForm} from 'react-hook-form';
-import ReactDOM from 'react-dom';
-import axios from 'axios';
 import { Redirect } from 'react-router-dom';
 
 export default function Login(){
     const {register, handleSubmit}= useForm();
     const [redirect, setRedirect] = useState(false);
 
-
         const onSubmit = async (data) =>{
-
-
             const response= await fetch('/api/login', {
                 method:'post',
                 headers:{'Content-type': 'application/json'},
@@ -23,7 +18,6 @@ export default function Login(){
                 if (content.message == 'success login'){
                     setRedirect(true)
                 }
-
             }
             if (redirect){
                 return <Redirect to='/navigation'/>
