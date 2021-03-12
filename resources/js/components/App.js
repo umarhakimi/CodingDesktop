@@ -8,9 +8,14 @@ import NavPage from "./NavPage";
 import laravelimg from "./images/laravel.png";
 import reactimg from "./images/react.png";
 import phpimg from "./images/php.png";
+import lgtimg from "./images/logout.png";
 import Question from "./Question";
 // import Answer from "./Test";
 import Answer from "./Answer";
+import Login from './Login';
+import Register from './Register';
+import Logout from './Logout';
+
 export default class App extends Component {
     render() {
         return (
@@ -28,14 +33,18 @@ export default class App extends Component {
                     <NavLink to="/php" className="nav-link justify-content-center">
                         <img className="nav-image" src={phpimg} />
                     </NavLink>
+                    <NavLink to="/logout" className="nav-link justify-content-center d-flex flex-row-reverse">
+                        <img className="nav-image" src={lgtimg} />
+                    </NavLink>
                 </div>
                     <Route path="/react" component={ReactPage} />
                     <Route path="/php" component={phpPage} />
                     <Route path="/navigation" component={NavPage} />
                     <Route path="/laravelHelp" component={Question} />
                     <Route path="/question/:question_id" exact render = {props => <Answer{...props}/> }/>
-                   {/* <Route path="/question/:id" component={Answer} exact /> */}
-                   {/* <Route path="/question/:question_id" component={Answer}  exact/> */}
+                    <Route path="/login" component={Login}/>
+                    <Route path="/register" component={Register}/>
+                    <Route path="/logout" component={Logout}/>
                 </nav>
 
             </div>

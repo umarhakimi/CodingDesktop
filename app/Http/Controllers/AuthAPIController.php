@@ -22,7 +22,10 @@ class AuthAPIController extends Controller
         $user = User::create($validatedData);
 
         $accessToken = $user->createToken('authToken')->accessToken;
-            return response()->json([ 'user' => $user, 'access_token' => $accessToken]);
+            return response()->json([
+                'message'=>'success register',
+                'user' => $user,
+                'access_token' => $accessToken]);
         // return response([ 'user' => $user, 'access_token' => $accessToken]);
     }
 
@@ -40,8 +43,10 @@ class AuthAPIController extends Controller
         $user = Auth::user($loginData);
         $accessToken = $user->createToken('authToken')->accessToken;
         $cookie =cookie('jwt', $accessToken,60*24);
-        return response(['user' => auth()->user(),
-        'message' => 'succcess',
+        return response([
+            'user' => auth()->user(),
+            'message' => 'success login',
+            'access_token' => $accessToken,
         ])->withCookie($cookie);
 
     }

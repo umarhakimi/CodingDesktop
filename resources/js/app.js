@@ -14,4 +14,4 @@ require('./bootstrap');
 
 // require('./components/App');
 
-require('./components/Register');
+require('./components/App');

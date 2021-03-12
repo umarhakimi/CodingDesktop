@@ -44,6 +44,3 @@ export default class NavPage extends Component {
     }
 }
 
-if (document.getElementById('root')) {
-    ReactDOM.render(<NavPage />, document.getElementById('root'));
-}

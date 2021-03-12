@@ -7,11 +7,6 @@ import laravelimg from "./images/laravel.png";
 
 
 class Answer extends Component{
-
-
-    // let question_id = this.props.match.params.id;
-
-
     constructor(){
         super();
         this.state = {
@@ -22,7 +17,11 @@ class Answer extends Component{
     componentDidMount(){
         let question_id = this.props.match.params.question_id;
         console.log(question_id)
-        axios.get('/api/answer/'+question_id).then(response =>{
+        axios.get('/api/answer/'+question_id, {
+            headers: {'Content-Type': 'application/json'},
+            credentials: 'include',
+        })
+        .then(response =>{
             this.setState({
                 answers: response.data
             })
@@ -31,7 +30,6 @@ class Answer extends Component{
         })
     }
     render(){
-        // let question_id = this.props.match.params.id;
     return(
 
 
