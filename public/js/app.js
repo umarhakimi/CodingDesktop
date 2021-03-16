@@ -6252,7 +6252,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".wrapper {\n  display: flex;\n  height: 100%;\n  width: 100%;\n  position: fixed;\n}\n\n.nav {\n  width: 65px;\n  background-color: #202631;\n  height: 100%;\n  align-items: stretch;\n}\n\n.nav-link img {\n  width: 30px;\n  height: 30px;\n}\n\n.nav-link {\n  display: flex;\n  width: 40px;\n  height: 40px;\n  margin: 15%;\n}\n\n.nav-link:active {\n  color: white;\n}\n\n.wrapper.button {\n  color: blue;\n}\n\n.navbar {\n  border-right: solid 2px;\n  border-color: #878A8F;\n  background-color: #F7FAFF;\n  width: 150px;\n  height: 100%;\n  margin-left: -16px;\n}\n\n.nav-item {\n  margin-top: 10px;\n  color: grey;\n}\n\n.row.BoxHeader {\n  height: 150px;\n  border-bottom: solid 2px;\n  border-color: #878A8F;\n}\n\n.row.box-description {\n  width: 90%;\n}\n\n.col {\n  /* height: 143px;\n  border-bottom: solid 2px;\n  width: 500px; */\n}\n\n.pill .active {\n  background-color: white;\n}\n\n/* .container-img{\n    width: 50em;\n    border:solid 1px;\n} */\n.container-img img {\n  height: 105px;\n  width: 100px;\n  margin-left: 54px;\n  margin-right: 54px;\n}\n\n.para {\n  font-size: 60px;\n  border-radius: solid 2px;\n  margin-left: -120px;\n  margin-bottom: 10px;\n  font-family: sans-serif;\n}\n\n.wrapper2 {\n  height: 84%;\n  width: 96%;\n}\n\n.header {\n  margin-top: 20px;\n  margin-left: 54px;\n  margin-right: 50%;\n}\n\n.header2 {\n  margin-top: 20px;\n  margin-left: 54px;\n  font-size: 30px;\n}\n\n.panel {\n  border-top: 1px solid;\n  border-color: #878A8F;\n  margin-left: 54px;\n  margin-right: 5%;\n}\n\n.scrollable {\n  overflow-y: scroll;\n}\n\n.title {\n  color: blue;\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.question {\n  margin-top: 7px;\n}\n\n.questionBox {\n  height: 100%;\n}\n\n.side-drawer {\n  background: white;\n  height: 100%;\n  transform: translateX(110%);\n  transition: transform 0.3s ease-out;\n  overflow-y: scroll;\n}\n\n.side-drawer.open {\n  transform: translateX(0);\n}\n\n.wrapper3 {\n  height: 100%;\n  width: 100%;\n}\n\n.answerContainer {\n  height: 700px;\n}\n\n.codesnippet {\n  border-color: #878A8F;\n  margin-left: 54px;\n  margin-right: 5%;\n  max-height: 200px;\n  border-bottom: solid 1px;\n  overflow-y: scroll;\n}\n\n.answer {\n  padding-top: 12px;\n}\n\n.answer-title {\n  width: 100%;\n  margin-left: 54px;\n  padding-bottom: 20px;\n  padding-top: 20px;\n  color: blue;\n}\n\n.close-answer {\n  border: 2rem;\n  color: grey;\n}\n\n.login-box {\n  margin-top: 300px;\n}\n\n.ipt {\n  margin-top: 10px;\n  border: 3rem;\n}", ""]);
+exports.push([module.i, ".wrapper {\n  display: flex;\n  height: 100%;\n  width: 100%;\n  position: fixed;\n}\n\n.nav {\n  width: 65px;\n  background-color: #202631;\n  height: 100%;\n  align-items: stretch;\n}\n\n.nav-link img {\n  width: 30px;\n  height: 30px;\n}\n\n.nav-link {\n  display: flex;\n  width: 40px;\n  height: 40px;\n  margin: 15%;\n}\n\n.nav-link:active {\n  color: white;\n}\n\n.wrapper.button {\n  color: blue;\n}\n\n.navbar {\n  border-right: solid 2px;\n  border-color: #878A8F;\n  background-color: #F7FAFF;\n  width: 150px;\n  height: 100%;\n  margin-left: -16px;\n}\n\n.nav-item {\n  margin-top: 10px;\n  color: grey;\n}\n\n.row.BoxHeader {\n  height: 150px;\n  border-bottom: solid 2px;\n  border-color: #878A8F;\n}\n\n.row.box-description {\n  width: 90%;\n}\n\n.col {\n  /* height: 143px;\n  border-bottom: solid 2px;\n  width: 500px; */\n}\n\n.pill .active {\n  background-color: white;\n}\n\n/* .container-img{\n    width: 50em;\n    border:solid 1px;\n} */\n.container-img img {\n  height: 105px;\n  width: 100px;\n  margin-left: 54px;\n  margin-right: 54px;\n}\n\n.para {\n  font-size: 60px;\n  border-radius: solid 2px;\n  margin-left: -120px;\n  margin-bottom: 10px;\n  font-family: sans-serif;\n}\n\n.wrapper2 {\n  height: 84%;\n  width: 96%;\n}\n\n.header {\n  margin-top: 20px;\n  margin-left: 54px;\n  margin-right: 50%;\n}\n\n.header2 {\n  margin-top: 20px;\n  margin-left: 54px;\n  font-size: 30px;\n}\n\n.panel {\n  border-top: 1px solid;\n  border-color: #878A8F;\n  margin-left: 54px;\n  margin-right: 5%;\n}\n\n.scrollable {\n  overflow-y: scroll;\n}\n\n.title {\n  color: blue;\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.question {\n  margin-top: 7px;\n}\n\n.questionBox {\n  height: 100%;\n}\n\n.side-drawer {\n  background: white;\n  height: 100%;\n  transform: translateX(110%);\n  transition: transform 0.3s ease-out;\n  overflow-y: scroll;\n}\n\n.side-drawer.open {\n  transform: translateX(0);\n}\n\n.wrapper3 {\n  height: 100%;\n  width: 100%;\n}\n\n.answerContainer {\n  height: 700px;\n}\n\n.codesnippet {\n  border-color: #878A8F;\n  margin-left: 54px;\n  margin-right: 5%;\n  max-height: 200px;\n  border-bottom: solid 1px;\n  overflow-y: scroll;\n}\n\n.answer {\n  padding-top: 12px;\n}\n\n.answer-title {\n  width: 100%;\n  margin-left: 54px;\n  padding-bottom: 20px;\n  padding-top: 20px;\n  color: blue;\n}\n\n.close-answer {\n  border: 2rem;\n  color: grey;\n}\n\n.login-box {\n  margin-top: 300px;\n}\n\n.ipt {\n  margin-top: 10px;\n  border: 3rem;\n}\n\n.ask-container {\n  margin-top: 50px;\n  flex-direction: column;\n}\n\n.ask-box {\n  margin-top: 10px;\n  flex-direction: column;\n}", ""]);
 
 // exports
 
@@ -73276,6 +73276,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Login__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Login */ "./resources/js/components/Login.js");
 /* harmony import */ var _Register__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Register */ "./resources/js/components/Register.js");
 /* harmony import */ var _Logout__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Logout */ "./resources/js/components/Logout.js");
+/* harmony import */ var _PostQuestion__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./PostQuestion */ "./resources/js/components/PostQuestion.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -73297,6 +73298,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -73386,6 +73388,12 @@ var App = /*#__PURE__*/function (_Component) {
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
         path: "/logout",
         component: _Logout__WEBPACK_IMPORTED_MODULE_15__["default"]
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
+        path: "/postquestion/:user_id",
+        exact: true,
+        render: function render(props) {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PostQuestion__WEBPACK_IMPORTED_MODULE_16__["default"], props);
+        }
       }))));
     }
   }]);
@@ -73500,21 +73508,21 @@ function Login() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "tab-pane fade show active"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "wrapper  justify-content-center "
+    className: "wrapper  justify-content-center test-1 "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "login-container test-1"
+    className: "wrapper2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
     onSubmit: handleSubmit(onSubmit)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "test-1 login-box "
+    className: ""
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Login"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
-    className: "ipt row",
+    className: "",
     type: "email",
     placeholder: "email",
     name: "email",
     ref: register
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
-    className: " ipt row",
+    className: " ",
     type: "password",
     placeholder: "password",
     name: "password",
@@ -73656,6 +73664,199 @@ var NavPage = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
+/***/ "./resources/js/components/PostQuestion.js":
+/*!*************************************************!*\
+  !*** ./resources/js/components/PostQuestion.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../sass/style.scss */ "./resources/sass/style.scss");
+/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_style_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _images_laravel_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/laravel.png */ "./resources/js/components/images/laravel.png");
+/* harmony import */ var _images_laravel_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_images_laravel_png__WEBPACK_IMPORTED_MODULE_5__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+
+
+
+
+var PostQuestion = /*#__PURE__*/function (_Component) {
+  _inherits(PostQuestion, _Component);
+
+  var _super = _createSuper(PostQuestion);
+
+  function PostQuestion(props) {
+    var _this;
+
+    _classCallCheck(this, PostQuestion);
+
+    _this = _super.call(this, props);
+    _this.state = {
+      title: '',
+      content: ''
+    };
+    return _this;
+  }
+
+  _createClass(PostQuestion, [{
+    key: "onTitleChange",
+    value: function onTitleChange(event) {
+      this.setState({
+        title: event.target.value
+      });
+    }
+  }, {
+    key: "onBodyChange",
+    value: function onBodyChange(event) {
+      this.setState({
+        content: event.target.value
+      });
+    }
+  }, {
+    key: "handleSubmit",
+    value: function handleSubmit(event) {
+      var user_id = this.props.match.params.user_id;
+      event.preventDefault();
+      axios__WEBPACK_IMPORTED_MODULE_2___default.a.post('/api/question/', {
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        credentials: 'include',
+        title: this.state.title,
+        content: this.state.content,
+        user_id: user_id
+      })["catch"](function (errors) {
+        console.log(errors);
+      });
+      console.log(this.state);
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      axios__WEBPACK_IMPORTED_MODULE_2___default.a.post('/api/question/', {
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        credentials: 'include',
+        title: this.state.title,
+        content: this.state.content,
+        user_id: 44
+      })["catch"](function (errors) {
+        console.log(errors);
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["HashRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "tab-pane fade show active"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "wrapper justify-content-center test-1"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+        className: "col-1 navbar flex-column justify-content-center align-items-center"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+        to: "/navigation",
+        className: "nav-item justify-content-center"
+      }, "Get Started"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+        to: "/laravelhelp",
+        className: "nav-item justify-content-center"
+      }, "Help"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+        to: "https://laravel.com/docs/8.x",
+        className: "nav-item justify-content-center"
+      }, "Documentation")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-2 cont flex-fill"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row BoxHeader flex-fill align-items-center"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container-img col-2 "
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: _images_laravel_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+        alt: "laravel",
+        className: ""
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: " col-1 "
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "para"
+      }, "Laravel"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "wrapper2"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: " col-12 d-flex ask-container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("blockquote", {
+        className: "align-self-center"
+      }, "Whats the problem?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        id: "post-question-form",
+        onSubmit: this.handleSubmit.bind(this),
+        method: "post"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "mx-auto col-md-10 d-flex ask-box justify-self-center"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: ""
+      }, "Title"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "form-control",
+        type: "text",
+        placeholder: "Summarize your problem",
+        value: this.state.title,
+        name: "title",
+        onChange: this.onTitleChange.bind(this)
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "mx-auto col-md-10  d-flex ask-box justify-self-center"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: ""
+      }, "Detail"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+        className: "form-control",
+        type: "textarea",
+        placeholder: "Explain your problem",
+        value: this.state.content,
+        name: "content",
+        onChange: this.onBodyChange.bind(this)
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "mx-auto col-md-10 d-flex ask-box justify-self-center"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: "btn btn-primary submit"
+      }, "submit"))))))));
+    }
+  }]);
+
+  return PostQuestion;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["withRouter"])(PostQuestion));
+
+/***/ }),
+
 /***/ "./resources/js/components/Question.js":
 /*!*********************************************!*\
   !*** ./resources/js/components/Question.js ***!
@@ -73728,7 +73929,8 @@ var Question = /*#__PURE__*/function (_Component) {
     _this.state = {
       questions: [],
       message: '',
-      status: false
+      status: false,
+      user_id: ''
     };
     return _this;
   }
@@ -73749,11 +73951,10 @@ var Question = /*#__PURE__*/function (_Component) {
                   },
                   credentials: 'include'
                 }).then(function (response) {
-                  console.log(response);
-
                   _this2.setState({
                     questions: response.data.questions,
-                    message: response.data.message
+                    message: response.data.message,
+                    user_id: response.data.user.id
                   });
 
                   if (response.data.message !== 'success login') {
@@ -73789,6 +73990,7 @@ var Question = /*#__PURE__*/function (_Component) {
   }, {
     key: "render",
     value: function render() {
+      console.log(this.state.user_id);
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["HashRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "tab-pane fade show active"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -73820,7 +74022,7 @@ var Question = /*#__PURE__*/function (_Component) {
       }, "Laravel"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "wrapper2 row"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "questionBox scrollable"
+        className: "col-10 questionBox scrollable"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
         className: "header2"
       }, "All Questions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -73834,7 +74036,12 @@ var Question = /*#__PURE__*/function (_Component) {
         }, question.title, "/", question.id), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
           className: "question"
         }, question.content));
-      }))))))));
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "col-2"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Link"], {
+        to: "/postquestion/" + this.state.user_id,
+        className: "nav-item justify-content-center"
+      }, "Post question")))))));
     }
   }]);
 

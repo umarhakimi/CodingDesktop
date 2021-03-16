@@ -92,7 +92,6 @@
 .wrapper2{
     height: 84%;
     width: 96%;
-
 }
 .header{
     margin-top: 20px;
@@ -190,3 +189,12 @@
     margin-top:10px;
     border: 3rem;
 }
+.ask-container{
+    margin-top: 50px;
+    flex-direction: column;
+}
+.ask-box{
+    margin-top: 10px;
+    flex-direction: column;
+}
+

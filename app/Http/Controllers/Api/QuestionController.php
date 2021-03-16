@@ -36,9 +36,10 @@ class QuestionController extends Controller
      */
     public function store(Request $request)
     {
-        $user=Auth::user();
-        $user->id ;
+        // $user=Auth::user();
+        // $user->user_id ;
         $question = new Question;
+        $question->user_id =$request->user_id;
         $question->content =$request->content;
         $question->title =$request->title;
         $question->save();

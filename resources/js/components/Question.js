@@ -12,6 +12,7 @@ export default class Question extends Component {
             questions:[],
             message:(''),
             status : false,
+            user_id :(''),
         }
     }
     async componentDidMount(){
@@ -20,10 +21,11 @@ export default class Question extends Component {
             headers: {'Content-Type': 'application/json'},
             credentials: 'include',
                 }).then(response =>{
-                    console.log(response)
+
                     this.setState({
                         questions: response.data.questions,
                         message: response.data.message,
+                        user_id:response.data.user.id,
                     })
                     if (response.data.message !== 'success login'){
                         this.setState({
@@ -45,6 +47,7 @@ export default class Question extends Component {
 
 
     render() {
+        console.log(this.state.user_id)
                 return (
                     <Router>
                         <div className="tab-pane fade show active">
@@ -66,8 +69,7 @@ export default class Question extends Component {
                                     </div>
 
                                     <div className="wrapper2 row">
-
-                                        <div className="questionBox scrollable">
+                                        <div className="col-10 questionBox scrollable">
                                             <h1 className='header2'>All Questions</h1>
                                             <div className="questionContainer">
                                                 {this.state.questions.map(question =>
@@ -75,8 +77,10 @@ export default class Question extends Component {
                                                             <Link to={"/question/"+question.id} className="title">{question.title}/{question.id}</Link>
                                                             <p className="question">{question.content}</p>
                                                     </div>)}
-
                                             </div>
+                                        </div>
+                                        <div className='col-2'>
+                                        <Link to={"/postquestion/"+this.state.user_id} className="nav-item justify-content-center" >Post question</Link>
                                         </div>
                                     </div>
                                 </div>

@@ -28,13 +28,13 @@ export default function Login(){
 
 
         <div className="tab-pane fade show active">
-            <div className="wrapper  justify-content-center ">
-                <div className='login-container test-1'>
+            <div className="wrapper  justify-content-center test-1 ">
+                <div className='wrapper2'>
                     <form onSubmit={handleSubmit(onSubmit)}>
-                        <div className='test-1 login-box '>
+                        <div className=''>
                             <h3 >Login</h3>
-                            <input className='ipt row' type="email" placeholder='email' name='email' ref={register}/>
-                            <input className=' ipt row' type="password" placeholder='password' name='password' ref={register}/>
+                            <input className='' type="email" placeholder='email' name='email' ref={register}/>
+                            <input className=' ' type="password" placeholder='password' name='password' ref={register}/>
                             <input className='btn-primary ipt row' type="submit"/>
                         </div>
                     </form>

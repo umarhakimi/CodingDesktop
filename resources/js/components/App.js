@@ -14,6 +14,7 @@ import Answer from "./Answer";
 import Login from './Login';
 import Register from './Register';
 import Logout from './Logout';
+import PostQuestion from './PostQuestion';
 
 export default class App extends Component {
     render() {
@@ -44,6 +45,8 @@ export default class App extends Component {
                     <Route path="/login" component={Login}/>
                     <Route path="/register" component={Register}/>
                     <Route path="/logout" component={Logout}/>
+                    <Route path="/postquestion/:user_id" exact render = {props => <PostQuestion{...props}/>}/>
+                    {/* <Route path="/postquestion" component={PostQuestion}/> */}
                     {/* <Route component={NoMatch}/> */}
                 </nav>
 
